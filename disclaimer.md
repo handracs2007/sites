@@ -1,6 +1,6 @@
 ## Handra
 
-### [home](/) | [Blog](/blog) | Disclaimer | [Terms and conditions](/tnc)
+### [Home](/) | [Blog](/blog) | Disclaimer | [Terms and conditions](/tnc)
 ## [View Source](https://www.websitepolicies.com/policies/view/GNEvkxgS){:target="_blank"}
 ### Disclaimer
 

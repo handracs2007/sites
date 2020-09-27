@@ -1,6 +1,6 @@
 ## Handra
 
-### Home | [Blog](/blog) | [Disclaimer](/disclaimer) | Terms and conditions
+### [Home](/) | [Blog](/blog) | [Disclaimer](/disclaimer) | Terms and conditions
 ## [View Source](https://www.websitepolicies.com/policies/view/GHObmNIH){:target="_blank"}
 ### Terms and conditions
 

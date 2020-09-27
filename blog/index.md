@@ -1,6 +1,6 @@
 ## Handra
 
-### [home](/) | Blog | [Disclaimer](/disclaimer) | [Terms and conditions](/tnc)
+### [Home](/) | Blog | [Disclaimer](/disclaimer) | [Terms and conditions](/tnc)
 
 Welcome to my blog. You can find lists of my blogposts below.
 
