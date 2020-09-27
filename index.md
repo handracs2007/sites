@@ -1,6 +1,6 @@
 ## Handra
 
-### My Home | [My Blog](https://handracs2007.github.io/blog)
+### My Home | [My Blog](/blog)
 With this site, I have retired my [existing blog](https://handracs.blogspot.com) hosted in Google Blogspot. New blog posts will be posted here and also duplicated at my [Medium](https://medium.com/@handra) page.
 
 ## I am a
