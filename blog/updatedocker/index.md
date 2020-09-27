@@ -7,7 +7,7 @@
 ### Update all docker images
 Sometimes, there can be a need to pull latest images of all the docker images that we have in our installation. Unfortunately, docker does not provide a simple command for us to be able to update all the pulled docker images.
 
-Luckly, with the power of **bash**, we will be able to accomplish this task. The command below will retrieve the images that we have in our installation and pull latest images from the docker repository.
+Luckily, with the power of **bash**, we will be able to accomplish this task. The command below will retrieve the images that we have in our installation and pull latest images from the docker repository.
 
 ```bash
 docker images | grep -v REPOSITORY | awk '{print $1}' | xargs -L1 docker pull
