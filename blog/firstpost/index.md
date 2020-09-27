@@ -1,6 +1,6 @@
 ## Handra
 
-### [My Home](/) | [My Blog](/blog)
+### [My home](/) | My blog | [Disclaimer](/disclaimer)
 
 [<<go back](..)
 
@@ -8,4 +8,6 @@
 Welcome. This is my first blog post using Github Pages as a place to keep this website. I hope to be able to post more useful and helpful materials in the near future.
 
 ---
-> Copyright@2020 Handra. Any and all opinions in this site are my own and not representative of any employers; past, present, and future.
+> Copyright@2020 Handra.
+>
+> [Terms and conditions](https://www.websitepolicies.com/policies/view/GHObmNIH){:target="_blank"})

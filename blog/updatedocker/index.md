@@ -1,6 +1,6 @@
 ## Handra
 
-### [My Home](/) | [My Blog](/blog)
+### [My home](/) | My blog | [Disclaimer](/disclaimer)
 
 [<<go back](..)
 
@@ -99,5 +99,6 @@ This command is used to execute a command, which in this case is ```docker pull`
 That's it. I hope it helps anyone in updating all of your docker images in one simple command line.
 
 ---
-> Copyright@2020 Handra. Any and all opinions in this site are my own and not representative of any employers; past, present, and future.
-
+> Copyright@2020 Handra.
+>
+> [Terms and conditions](https://www.websitepolicies.com/policies/view/GHObmNIH){:target="_blank"})

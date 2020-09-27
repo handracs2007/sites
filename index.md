@@ -1,6 +1,6 @@
 ## Handra
 
-### My Home | [My Blog](/blog)
+### My home | [My blog](/blog) | [Disclaimer](/disclaimer)
 With this site, I have retired my [old blog](https://handracs.blogspot.com) hosted in Google Blogspot. New blog posts will be posted here and also duplicated at my [Medium](https://medium.com/@handra) page.
 
 ## I am a
@@ -30,4 +30,6 @@ If you want to contact me, feel free to email me at: [handra@handracs.info](mail
 Cheers
 
 ---
-> Copyright@2020 Handra. Any and all opinions in this site are my own and not representative of any employers; past, present, and future.
+> Copyright@2020 Handra.
+>
+> [Terms and conditions](https://www.websitepolicies.com/policies/view/GHObmNIH){:target="_blank"})

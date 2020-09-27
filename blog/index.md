@@ -1,6 +1,6 @@
 ## Handra
 
-### [My Home](/) | My Blog
+### [My home](/) | My blog | [Disclaimer](/disclaimer)
 
 Welcome to my blog. You can find lists of my blogposts below.
 
@@ -9,4 +9,6 @@ Welcome to my blog. You can find lists of my blogposts below.
  - 2020-09-27 - Update all docker images ([let's go](updatedocker))
 
 ---
-> Copyright@2020 Handra. Any and all opinions in this site are my own and not representative of any employers; past, present, and future.
+> Copyright@2020 Handra.
+>
+> [Terms and conditions](https://www.websitepolicies.com/policies/view/GHObmNIH){:target="_blank"})
