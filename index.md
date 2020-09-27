@@ -1,7 +1,7 @@
 ## Handra
 
 ### Home | [Blog](/blog) | [Disclaimer](/disclaimer) | [Terms and conditions](/tnc)
-With this site, I have retired my [old blog](https://handracs.blogspot.com) hosted in Google Blogspot. New blog posts will be posted here and also duplicated at my [Medium](https://medium.com/@handra) page.
+With this site, I have retired my [old blog](https://handracs.blogspot.com){:target="_blank"} hosted in Google Blogspot. New blog posts will be posted here and also duplicated at my [Medium](https://medium.com/@handra){:target="_blank"} page.
 
 ## I am a
 ### Software Engineer
