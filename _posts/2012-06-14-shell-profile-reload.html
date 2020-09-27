@@ -1,0 +1,13 @@
+---
+layout: post
+title: Shell Profile Reload
+date: '2012-06-14T18:22:00.001+08:00'
+author: Handra
+tags:
+- Linux/Open Source
+modified_time: '2012-06-14T18:22:58.655+08:00'
+blogger_id: tag:blogger.com,1999:blog-6088975468803563517.post-2169531422510945627
+blogger_orig_url: https://handracs.blogspot.com/2012/06/shell-profile-reload.html
+---
+
+<span class="Apple-style-span" style="font-family: Verdana, sans-serif;">For those of you, who are familiar with shell in Linux or Unix environment, the file .bash_profile (or .profile in Mac OS X) must already be familiar. This file is used to store initialisation commands to be used for the entire shell session. Example of things you can put into this file is putting alias for commands and registering environment variables.</span><br /><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">As the .bash_profile and .profile are just regular files, we can change it at any time. However, it will be quite a hassle if every time we change the file we need to close and open a new shell window. There is a command that we can use to re-run the profile file on the fly. Following is the full command you can use to do that.</span><br /><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Under Linux</span><br /><pre class="prettyprint lang-sh"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">source ~/.bash_profile</span><br /></pre><br /><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Under Mac OS X</span><br /><pre class="prettyprint lang-sh"><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">source ~/.profile</span><br /></pre><span class="Apple-style-span" style="font-family: Verdana, sans-serif;">Hope this helps you. Have fun.</span>

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Passivation Capable Bean
+date: '2018-12-23T18:32:00.000+08:00'
+author: Handra
+tags:
+- Java
+modified_time: '2018-12-23T18:38:54.349+08:00'
+thumbnail: https://3.bp.blogspot.com/-PlQKA14MS-8/XB9lRCCvmMI/AAAAAAAAdtA/7DeEoxjD9LgfHZp35iXQ9TBfJcYAeeqoQCLcBGAs/s72-c/Screenshot%2B2018-12-23%2Bat%2B18.36.01.png
+blogger_id: tag:blogger.com,1999:blog-6088975468803563517.post-6341276776161534097
+blogger_orig_url: https://handracs.blogspot.com/2018/12/passivation-capable-bean.html
+---
+
+Although it has been a while for me to do Java EE development, it's not that long for me learning about the power of EJB. I had never really used it in my working environment nor have I learned it elsewhere.<br /><br />Lately, for my own development project, I decided to use latest technology, hence decided to learn new things, albeit not that new, just newer version of the technology. During my development work, I stumbled upon an error like shown below.<br /><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-PlQKA14MS-8/XB9lRCCvmMI/AAAAAAAAdtA/7DeEoxjD9LgfHZp35iXQ9TBfJcYAeeqoQCLcBGAs/s1600/Screenshot%2B2018-12-23%2Bat%2B18.36.01.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="400" data-original-width="1363" src="https://3.bp.blogspot.com/-PlQKA14MS-8/XB9lRCCvmMI/AAAAAAAAdtA/7DeEoxjD9LgfHZp35iXQ9TBfJcYAeeqoQCLcBGAs/s1600/Screenshot%2B2018-12-23%2Bat%2B18.36.01.png" /></a></div><br /><br />Solving this error turned out pretty easy to do. I put here in my blog for the purpose of my own documentation as well as for reference to others who might have same issue.<br /><br />In conclusion, I just need to make my class serialisable by implementing Serializable class and do re-deployment. This solved my issue.<br /><br />This is how my class looks like now.<br /><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-dWuBxuyCm-E/XB9lSOTEjfI/AAAAAAAAdtE/Biu0DV7kR_4c255rBUuIhksxgq9ai45VACEwYBhgL/s1600/Screenshot%2B2018-12-23%2Bat%2B18.35.45.png" imageanchor="1" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img border="0" data-original-height="160" data-original-width="570" src="https://1.bp.blogspot.com/-dWuBxuyCm-E/XB9lSOTEjfI/AAAAAAAAdtE/Biu0DV7kR_4c255rBUuIhksxgq9ai45VACEwYBhgL/s1600/Screenshot%2B2018-12-23%2Bat%2B18.35.45.png" /></a></div><br />
