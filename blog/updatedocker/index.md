@@ -23,7 +23,7 @@ This command is used to list down all the images that we have in our docker inst
 
 Below is the sample output of the command.
 ```bash
- handra@nebula  ~  docker images
+handra@nebula  ~  docker images
 REPOSITORY                        TAG                 IMAGE ID            CREATED             SIZE
 postgres                          latest              817f2d3d51ec        2 days ago          314MB
 primekey/ejbca-ce                 latest              996a15c0fb9a        5 days ago          623MB
@@ -48,7 +48,7 @@ This command is used to get all the lines output from the command ```docker imag
 
 Below is the sample output of the command.
 ```bash
- handra@nebula  ~  docker images | grep -v REPOSITORY
+handra@nebula  ~  docker images | grep -v REPOSITORY
 postgres                          latest              817f2d3d51ec        2 days ago          314MB
 primekey/ejbca-ce                 latest              996a15c0fb9a        5 days ago          623MB
 pmlpostgres                       latest              3dc7d2347bb6        2 weeks ago         314MB
@@ -72,7 +72,7 @@ This command is used to print out only the first column of an input. In this cas
 
 Below is the sample output of the command.
 ```bash
- handra@nebula  ~  docker images | grep -v REPOSITORY | awk '{print $1}'
+handra@nebula  ~  docker images | grep -v REPOSITORY | awk '{print $1}'
 postgres
 primekey/ejbca-ce
 pmlpostgres
