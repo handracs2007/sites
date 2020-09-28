@@ -116,7 +116,7 @@ To extract only the public certificate, you may use the following command:
 ```bash
 openssl pkcs12 -in <input.p12> -out <output.pem> -nokeys
 ```
-You need to replace the **<input.p12>** with your p12 file and **<output.pem>** with your desired output file name. Below is the command I executed in my environment against my p12 file.
+You need to replace the **\<input.p12\>** with your p12 file and **\<output.pem\>** with your desired output file name. Below is the command I executed in my environment against my p12 file.
 ```bash
 openssl pkcs12 -in demop12.p12 -out demop12.pem --nokeys
 ```
@@ -206,7 +206,7 @@ Now that we managed to extract the public certificate, we can proceed with extra
 ```bash
 openssl pkcs12 -in <input.p12> -out <output.key> --nocerts
 ```
-You need to replace the **<input.p12>** with your p12 file and **<output.key>** with your desired output file name. Below is the command I executed in my environment against my p12 file.
+You need to replace the **\<input.p12\>** with your p12 file and **\<output.key\>** with your desired output file name. Below is the command I executed in my environment against my p12 file.
 ```bash
 openssl pkcs12 -in demop12.p12 -out demop12.key --nocerts
 ```
