@@ -241,13 +241,12 @@ V3Dop7KcBMg6w36Ppf0GImBeNhY0raCwoCwxBwKR5HvlhJqsNiNXFP3crUVAVmui
 8HYiVDOtkcOaRfxAu8S5Vwc0yQz89RfumjIyEyB217WkwjrTTfw=
 -----END ENCRYPTED PRIVATE KEY-----
 ```
-You can see that the key content is exactly the same as the one inside the **demop12.p12** file shown in the above steps.
 
 However, as you might have noticed, the private key is in encrypted format. If this is not what you want, you can simply add a new parameter **--nodes** to the **openssl** command as shown below:
 ```bash
 openssl pkcs12 -in <input.p12> -out <output.key> --nocerts --nodes
 ```
-Same like previous, you need to replace the **<input.p12>** with your p12 file and **<output.key>** with your desired output file name. Below is the command I executed in my environment against my p12 file.
+Same like previous, you need to replace the **\<input.p12\>** with your p12 file and **\<output.key\>** with your desired output file name. Below is the command I executed in my environment against my p12 file.
 ```bash
 openssl pkcs12 -in demop12.p12 -out demop12-plain.key --nocerts --nodes
 ```
