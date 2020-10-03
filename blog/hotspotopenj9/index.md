@@ -5,7 +5,7 @@
 [<<go back](..)
 
 ### Comparing Hotspot and OpenJ9
-In this post, we are going to do a comparison between Hotspot and OpenJ9. For those of you who are already familiar with Java, the term Hotspot, which is the [Java Virtual Machine (JVM)](https://en.wikipedia.org/wiki/Java_virtual_machine){:target=_blank} implementation developed by Oracle (before this was Sun Microsystem). However, OpenJ9 might be less known JVM implementation among the community, especially newcomers to the Java ecosystem.
+In this post, we are going to do a comparison between Hotspot and OpenJ9. For those of you who are already familiar with Java, you must already be familiar with the term Hotspot as well. Hotspot is the [Java Virtual Machine (JVM)](https://en.wikipedia.org/wiki/Java_virtual_machine){:target=_blank} implementation developed by Oracle (before this was Sun Microsystem). However, OpenJ9 might be less known JVM implementation among the community, especially newcomers to the Java ecosystem. Nowadays, it gains more traction due to the cloud native movement.
 
 ---
 
