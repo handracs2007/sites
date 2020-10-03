@@ -10,7 +10,7 @@ In this post, we are going to do a comparison between Hotspot and OpenJ9. For th
 ---
 
 #### A brief history of OpenJ9
-OpenJ9 is yet another JVM implementation, originally owned and developed by IBM, which then contributed to Eclipse Foundation on 2017, hence the naming Eclipse OpenJ9. Built to run on mobile devices with very limited memory, OpenJ9 is a suitable solution to be used on the cloud. With high optimisation for fast startup, lower memory footprint, quick ramp-up, and excellet throughput performance, applications deployed using OpenJ9 claimed to be more cost-effective, especially when deployed in the cloud. Some people has claimed that by just replacing their JVM from Hotspot to OpenJ9, their memory consumption has been reduced quite significantly.
+OpenJ9 is yet another JVM implementation, originally owned and developed by IBM, which then contributed to Eclipse Foundation on 2017, hence the naming Eclipse OpenJ9. Built to run on mobile devices with very limited memory, OpenJ9 is a suitable solution to be used on the cloud. With high optimisation for fast startup, lower memory footprint, quick ramp-up, and excellent throughput performance, applications deployed using OpenJ9 claimed to be more cost-effective, especially when deployed in the cloud. Some people has claimed that by just replacing their JVM from Hotspot to OpenJ9, their memory consumption has been reduced quite significantly.
 
 OpenJ9 is an open-source project that anyone can contribute. You may go to their Github page <https://github.com/eclipse/openj9> for more details on the OpenJ9, including the source code. You can even start contributing to the project from there :).
 
@@ -44,7 +44,7 @@ The SpringBoot application source code is freely accessible from <https://github
 #### Docker containers
 The application will be deployed in a Docker container. I am using images from the adoptopenjdk that can easily be pulled from the Docker hub.
 
-Below is the dockerfile for my application based on Hotspot JVM.
+Below is the Dockerfile for my application based on Hotspot JVM.
 
 ```
 FROM adoptopenjdk:11-jre-hotspot
@@ -53,7 +53,7 @@ COPY simplespringbootapp-0.0.1-SNAPSHOT.jar /opt/app/myapp.jar
 CMD ["java", "-jar", "/opt/app/myapp.jar"]
 ```
 
-Below is the Dockerfile for my applicatio based on OpenJ9 JVM.
+Below is the Dockerfile for my application based on OpenJ9 JVM.
 ```
 FROM adoptopenjdk:11-jre-openj9
 RUN mkdir /opt/app
@@ -115,10 +115,10 @@ ab -c 50 -n 1000000 -r http://localhost:9090/call
 From the conducted testing, below is the result.
 ```
 	TPS              			        RAM		
-	Hotspot	    OpenJ9	    Reduction	Hotspot	OpenJ9	Reduction
-#1	12512.54	11885.73	5.01	    380.8	145.4	61.82
-#2	13443.84	12608.04	6.22	    381.4	151.8	60.20
-#3	13096.41	12419.7	    5.17	    382.2	151	    60.49
+	Hotspot     OpenJ9      Reduction   Hotspot OpenJ9  Reduction
+#1	12512.54    11885.73    5.01        380.8   145.4   61.82
+#2	13443.84    12608.04    6.22        381.4   151.8   60.20
+#3	13096.41    12419.7     5.17        382.2   151     60.49
 ```
 
 As can be seen from the result above, the memory usage of the OpenJ9 is still significantly lower than what the Hotspot is using. However, as you might have noticed as well, this memory reduction is paid by the decrease of throughput by around 5-6%. Depending on your application use case, this might or might not be a huge number.
