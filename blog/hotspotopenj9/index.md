@@ -79,7 +79,7 @@ I'm using the following command to startup the container for Hotspot. The publis
 docker run -p 8080:8080 --name myapphotspot --rm -d myapp-hotspot
 ```
 
-The below command is to startup the container for OpenJ9. The publised port to be used to hit the server is **9090**.
+The below command is to startup the container for OpenJ9. The published port to be used to hit the server is **9090**.
 ```bash
 docker run -p 9090:8080 --name myappopenj9 --rm -d myapp-openj9
 ```
