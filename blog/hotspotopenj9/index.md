@@ -114,7 +114,7 @@ ab -c 50 -n 1000000 -r http://localhost:9090/call
 
 From the conducted testing, below is the result.
 ```
-	TPS              			        RAM		
+	TPS                                 RAM		
 	Hotspot     OpenJ9      Reduction   Hotspot OpenJ9  Reduction
 #1	12512.54    11885.73    5.01        380.8   145.4   61.82
 #2	13443.84    12608.04    6.22        381.4   151.8   60.20
