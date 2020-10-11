@@ -11,7 +11,7 @@ In this post, we are going to run through the process of creating gRPC client/se
 #### Brief introduction to mTLS
 In today's web, it is very rare to see a website that is not secured at least using HTTPS (HTTP over TLS). It has been a norm in the industry that websites are ought to use HTTPS instead of just using plain HTTP. Some web browsers have taken further step as well to flag a website as insecure (through the RED warning in the address bar) when users try to access a website using only HTTP.
 
-In a traditional HTTPS, clients (mostly web browsers), verifies the identity of a server through its digital certificate. The digital certificate contains information of a website such as the domain name, the organisation, and some other information deemed as necessary. This is know as one-way TLS, whereas its only client that verifies the server.
+In a traditional HTTPS, clients (mostly web browsers), verify the identity of a server through its digital certificate. The digital certificate contains information of a website such as the domain name, the organisation, and some other information deemed as necessary. This is known as one-way TLS, whereas it's only the client that verifies the server.
 
 In mTLS, the verification goes both way. Client needs to verify the server, and server needs to verify the client. Both verification is done using digital certificate. Due to the nature of it, mTLS is sometimes known as two-way TLS as well.
 
@@ -361,7 +361,7 @@ XPMWmAsVq3j2MGRcp2gs+yCtqrPA
 
 ---
 #### Create gRPC contract
-Now that we have our certificates ready, let's proceed by completing our gRPC development. First of all, let's create an IDL (Interface Definition Language) as required by gRPC. This file contains the explosed services together with the inputs and outputs.
+Now that we have our certificates ready, let's proceed by completing our gRPC development. First of all, let's create an IDL (Interface Definition Language) as required by gRPC. This file contains the exposed services together with the inputs and outputs.
 
 For simplicity, we are going to just create a simple ```DemoService``` service. This is more than enough to demo the mTLS and gRPC working together.
 
@@ -369,10 +369,6 @@ Below is the content of the proto file. We have an RPC endpoint named ```SayHell
 
 ```proto
 syntax = "proto3";
-
-option java_package="org.handra.demo.grpc";
-option java_multiple_files=true;
-option java_outer_classname="DemoGrpc";
 
 option go_package=".;rpc";
 
@@ -389,7 +385,7 @@ service DemoService {
   rpc SayHello(HelloRequest) returns (HelloResponse);
 }
 ```
-For further reference on the protobuf configuration, you can refer [here](https://developers.google.com/protocol-buffers/docs/proto3){:target=_blank}. That's it for the proto file. We will continue with developing both client and server application. We will be using Go for the development.
+For further reference on the protobuf configuration, you can refer [here](https://developers.google.com/protocol-buffers/docs/proto3){:target=_blank}. That's it for the proto file. We will continue with developing both client and server applications. We will be using Go for the development.
 
 ---
 #### Develop gRPC server
