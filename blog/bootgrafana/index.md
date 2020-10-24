@@ -475,7 +475,7 @@ Percentage of the requests served within a certain time (ms)
 ---
 That's all. This might look like a lot of steps at first, however once you get the hang of it, the steps are very straight-forward.
 
-I hope this is helpful and the source code (including the docker related files) for this is available at Github [](https://github.com/handracs2007/bootgrafana){:target=_blank}.
+I hope this is helpful and the source code (including the docker related files) for this is available at Github [here](https://github.com/handracs2007/bootgrafana){:target=_blank}.
 
 Cheers
 
