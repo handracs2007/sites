@@ -9,7 +9,7 @@ In this post, we are going to learn on how can we monitor an application develop
 
 ---
 #### Background
-Monitoring is undeniably an one of the important items to have when dealing with applications. It has become even more prevalent in the age of microservices, whereby the team needs to have visibility on what is going on the multitude of microservices they are operating.
+Monitoring is undeniably one of the important items to have when dealing with applications. It has become even more prevalent in the age of microservices, whereby the team needs to have visibility on what is going on with the multitude of microservices they are operating.
 
 ---
 #### SpringBoot
@@ -25,15 +25,15 @@ Below are some of the features of SpringBoot as grabbed from its website <https:
 
 ---
 #### Prometheus
-Prometheus is an open-source system monitoring and alerting toolkit. This tool was built previously at SoundCloud. Prometheus joind the Cloud Native Computing Foundation in 2016 as the second hosted project, after Kubernetes.
+Prometheus is an open-source system monitoring and alerting toolkit. This tool was built previously at SoundCloud. Prometheus joined the Cloud Native Computing Foundation in 2016 as the second hosted project, after Kubernetes.
 
 Below are some of the Prometheus features that can be exploited:
 - A multi-dimensional data model with time series data identified by metric name and key/value pairs.
-- PromQL, a flexible quer langauge to leverage this dimentionality.
+- PromQL, a flexible query language to leverage this dimentionality.
 - No reliance on distributed storage; single server nodes are autonomous.
 - Time series collection happens via a pull model over HTTP.
 - Pushing time series is supported via an intermediary gateway.
-- Targets are discovered via service discovery or statis configuration.
+- Targets are discovered via service discovery or static configuration.
 - Multiple modes of graphing and dashboarding support.
 
 To learn more on Prometheus, feel free to go to its website at <https://prometheus.io/>.
@@ -71,7 +71,7 @@ dependencies {
 ```
 
 ##### Creating a REST API
-Now that we have the dependency set-up, let's start by creating a new RESTful API. This will be just a simple endpoint that will greet the API caller with a message *_Hello Monitoring_*. It is a very simple class as below.
+Now that we have the dependency set-up, let's start by creating a new RESTful API. This will be just a simple endpoint that will greet the API caller with a message *Hello <name>. Greetings for monitoring*. It is a very simple class as below.
 ```kotlin
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
@@ -374,28 +374,42 @@ Click on the **Add data source** button.
 ![Grafana Data Source #3](grafana_ds3.png)
 Click on the **Prometheus**.
 
+
 ![Grafana Data Source #4](grafana_ds4.png)
-Here, you will be presented set of input to fill-in. For now, we just need to worry about the URL. Let's put <http://localhost:9090/> into the URL field.
+
+Here, you will be presented with a set of inputs to fill-in. For now, we just need to worry about the URL. Let's put <http://localhost:9090/> into the URL field.
+
 
 ![Grafana Data Source #5](grafana_ds5.png)
+
 After that, click on the **Save & Test** button (blue colour button) at the bottom of the form.
 
+
 ![Grafana Data Source #6](grafana_ds6.png)
+
 When the data-source testing is OK, you will be presented with a message saying **_Data source is working_**.
+
 
 ###### Grafana Import Dashboard
 Once we have the data source configured properly, we can import/load a dashboard into the Grafana. We will use the **JVM (Micrometer)** dashboard that is available online with code **4701**.
 
 ![Grafana Import #1](grafana_import1.png)
+
 Let's go to *Import* dashboard in Grafana.
 
+
 ![Grafana Import #2](grafana_import2.png)
+
 A new page will be loaded. Let's enter number *4701* and click on the **Load** button next to it.
 
+
 ![Grafana Import #3](grafana_import3.png)
+
 Once loaded, Grafana will show the details of this Dashboard. Note that you have to choose the correct **Prometheus** data source at the **Prometheus** drop-down list. Once done, click on the **Import** button. A dashboard page will be shown.
 
+
 ![Grafana Dashboard](grafana_dashboard.png)
+
 This dashboard shows you the details of the JVM, including the HTTP metrics.
 
 Now, you can try sending a lot of requests to the ```myapp``` and refresh (or wait for the dashboard to refresh). Once the metrics is gathered, Grafana will update the dashboard, especially on the **I/O Overview** and some other JVM details, such as **Load** and **Threads**. This way, we can monitor the health of our service and act accordingly when we notice something is not quite right.
@@ -461,7 +475,7 @@ Percentage of the requests served within a certain time (ms)
 ---
 That's all. This might look like a lot of steps at first, however once you get the hang of it, the steps are very straight-forward.
 
-I hope this is helpful and the source code (including the docker related files) for this is available at Github <https://github.com/handracs2007/bootgrafana>.
+I hope this is helpful and the source code (including the docker related files) for this is available at Github [](https://github.com/handracs2007/bootgrafana){:target=_blank}.
 
 Cheers
 
