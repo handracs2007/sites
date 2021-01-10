@@ -5,6 +5,7 @@
 Welcome to my blog. You can find lists of my blogposts below.
 
 #### Blogposts
+ - 2021-01-10 - Check Certificate Revocation Status via CRL ([let's go](certcrl))
  - 2020-10-24 - Monitoring SpringBoot Application with Prometheus and Grafana ([let's go](bootgrafana))
  - 2020-10-11 - Secure gRPC Client/Server over mTLS ([let's go](grpcmtlsgo))
  - 2020-10-03 - Comparing Hotspot and OpenJ9 ([let's go](hotspotopenj9))
