@@ -195,7 +195,7 @@ If the serial number can be found inside the CRL file, that means the certificat
 ---
 That's all. It looks very easy and straight-forward. In the next follow-up article, we'll see how can we do certificate revocation status checking by using OCSP instead of CRL.
 
-I hope this is helpful and the source code (including the docker related files) for this is available at Github [here](https://github.com/handracs2007/certcrl){:target=_blank}.
+I hope this is helpful and the source code for this is available at Github [here](https://github.com/handracs2007/certcrl){:target=_blank}.
 
 Cheers
 
