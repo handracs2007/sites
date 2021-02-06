@@ -49,4 +49,4 @@ If you would like to contact us to understand more about this Agreement or wish 
 This document was last updated on September 27, 2020
 
 ---
-> Copyright &copy; 2020 Handra. All Rights Reserved.
+> Copyright &copy; 2020-2021 Handra. All Rights Reserved.
