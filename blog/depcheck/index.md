@@ -115,11 +115,11 @@ Dependency-Check is an open source tool performing a best effort analysis of 3rd
 [INFO] Finished Dependency Bundling Analyzer (0 seconds)
 [INFO] Analysis Complete (1 seconds)
 [INFO] Writing report to: /media/handra/DATA/IdeaProjects/mvndepcheck/target/dependency-check-report.html
-<pre>[WARNING] 
+<b>[WARNING] 
 
 One or more dependencies were identified with known vulnerabilities in mvndepcheck:
 
-spring-core-5.2.8.RELEASE.jar (pkg:maven/org.springframework/spring-core@5.2.8.RELEASE, cpe:2.3:a:pivotal_software:spring_framework:5.2.8:release:*:*:*:*:*:*, cpe:2.3:a:springsource:spring_framework:5.2.8:release:*:*:*:*:*:*, cpe:2.3:a:vmware:springsource_spring_framework:5.2.8:release:*:*:*:*:*:*) : CVE-2020-5421</pre>
+spring-core-5.2.8.RELEASE.jar (pkg:maven/org.springframework/spring-core@5.2.8.RELEASE, cpe:2.3:a:pivotal_software:spring_framework:5.2.8:release:*:*:*:*:*:*, cpe:2.3:a:springsource:spring_framework:5.2.8:release:*:*:*:*:*:*, cpe:2.3:a:vmware:springsource_spring_framework:5.2.8:release:*:*:*:*:*:*) : CVE-2020-5421</b>
 
 
 See the dependency-check report for more details.
