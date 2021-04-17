@@ -9,7 +9,7 @@ In this post, we are going to look at how to integrate OWASP dependency check wi
 
 ---
 #### Background
-Anyone who work with Java, especially those who are building enterprise level applications, must know that there are plenty of libraries they will use to build the product. With more and more dependencies we add to our project, it becomes harder and harder to keep track of any security issue exists in our dependencies. Luckily, [OWASP (Open Web Application Security Project)](https://owasp.org/) provides us with a dependency check tool that can help us to check our dependencies for any reported vulnerability.
+Anyone who works with Java, especially those who are building enterprise level applications, must know that there are plenty of libraries they will use to build the product. With more and more dependencies we add to our project, it becomes harder and harder to keep track of any security issue exists in our dependencies. Luckily, [OWASP (Open Web Application Security Project)](https://owasp.org/) provides us with a dependency check tool that can help us to check our dependencies for any reported vulnerability.
 
 ---
 #### Why is it Important
@@ -56,8 +56,8 @@ As can be seen, I added version `2.2.9.RELEASE` to my dependency. This version i
 
 Now, let's execute our maven dependency check using the command `mvn verify`. Below is the sample output of the command.
 
-``` bash
-handra@nebula  mvn verify
+<pre>
+handra@nebula  <b>mvn verify</b>
 [INFO] Scanning for projects...
 [INFO] 
 [INFO] --------------------< com.handra.demo:mvndepcheck >---------------------
@@ -115,11 +115,11 @@ Dependency-Check is an open source tool performing a best effort analysis of 3rd
 [INFO] Finished Dependency Bundling Analyzer (0 seconds)
 [INFO] Analysis Complete (1 seconds)
 [INFO] Writing report to: /media/handra/DATA/IdeaProjects/mvndepcheck/target/dependency-check-report.html
-[WARNING] 
+<pre>[WARNING] 
 
 One or more dependencies were identified with known vulnerabilities in mvndepcheck:
 
-spring-core-5.2.8.RELEASE.jar (pkg:maven/org.springframework/spring-core@5.2.8.RELEASE, cpe:2.3:a:pivotal_software:spring_framework:5.2.8:release:*:*:*:*:*:*, cpe:2.3:a:springsource:spring_framework:5.2.8:release:*:*:*:*:*:*, cpe:2.3:a:vmware:springsource_spring_framework:5.2.8:release:*:*:*:*:*:*) : CVE-2020-5421
+spring-core-5.2.8.RELEASE.jar (pkg:maven/org.springframework/spring-core@5.2.8.RELEASE, cpe:2.3:a:pivotal_software:spring_framework:5.2.8:release:*:*:*:*:*:*, cpe:2.3:a:springsource:spring_framework:5.2.8:release:*:*:*:*:*:*, cpe:2.3:a:vmware:springsource_spring_framework:5.2.8:release:*:*:*:*:*:*) : CVE-2020-5421</pre>
 
 
 See the dependency-check report for more details.
@@ -131,15 +131,15 @@ See the dependency-check report for more details.
 [INFO] Total time:  4.192 s
 [INFO] Finished at: 2021-04-17T15:28:25+08:00
 [INFO] ------------------------------------------------------------------------
-```
+</pre>
 
-From the above output, you can see that there are a few vulnerabilities reported.
+From the above output, you can see that there is a vulnerability reported.
 
 ```
 spring-core-5.2.8.RELEASE.jar (pkg:maven/org.springframework/spring-core@5.2.8.RELEASE, cpe:2.3:a:pivotal_software:spring_framework:5.2.8:release:*:*:*:*:*:*, cpe:2.3:a:springsource:spring_framework:5.2.8:release:*:*:*:*:*:*, cpe:2.3:a:vmware:springsource_spring_framework:5.2.8:release:*:*:*:*:*:*) : CVE-2020-5421
 ```
 
-This proves that with this simple configuration, it is enough to help us to verify that our dependencies are secure or not secure.
+This proves that with this simple configuration, it is enough to help us to verify that our dependencies are secure or not.
 
 ---
 ### Failing the Build
