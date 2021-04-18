@@ -20,7 +20,7 @@ With this site, I have retired my [old blog](https://handracs.blogspot.com){:tar
  - Master Degree, Information Systems Management at beloved [BiNus University](https://binus.ac.id/)
 
 #### Certificatioon
-- OCP Java SE 11 Developer (https://catalog-education.oracle.com/pls/certview/sharebadge?id=2FF459F59FDE6F4DB900C53D513E36D8A44D313DA68B27EBD49BBD53A49B3DAB)
+- OCP Java SE 11 Developer [https://catalog-education.oracle.com/pls/certview/sharebadge?id=2FF459F59FDE6F4DB900C53D513E36D8A44D313DA68B27EBD49BBD53A49B3DAB](https://catalog-education.oracle.com/pls/certview/sharebadge?id=2FF459F59FDE6F4DB900C53D513E36D8A44D313DA68B27EBD49BBD53A49B3DAB)
 
 #### Employers
  - Securemetric Bhd. [Active] ([site](https://www.securemetric.com/))
