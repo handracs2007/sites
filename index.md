@@ -19,6 +19,9 @@ With this site, I have retired my [old blog](https://handracs.blogspot.com){:tar
  - Bachelor Degree, Computer Science at beloved [BiNus University](https://binus.ac.id/)
  - Master Degree, Information Systems Management at beloved [BiNus University](https://binus.ac.id/)
 
+ #### Certification
+ <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9a5855d4-e718-4214-ab10-93dec4bc015a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 #### Employers
  - Securemetric Bhd. [Active] ([site](https://www.securemetric.com/))
  - Intimap Indonesia ([site](http://www.intimap.com/))
