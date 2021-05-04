@@ -19,13 +19,8 @@ With this site, I have retired my [old blog](https://handracs.blogspot.com){:tar
  - Bachelor Degree, Computer Science at beloved [BiNus University](https://binus.ac.id/)
  - Master Degree, Information Systems Management at beloved [BiNus University](https://binus.ac.id/)
 
-<<<<<<< HEAD
- #### Certification
+#### Certification
  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="9a5855d4-e718-4214-ab10-93dec4bc015a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-=======
-#### Certificatioon
-- OCP Java SE 11 Developer [https://catalog-education.oracle.com/pls/certview/sharebadge?id=2FF459F59FDE6F4DB900C53D513E36D8A44D313DA68B27EBD49BBD53A49B3DAB](https://catalog-education.oracle.com/pls/certview/sharebadge?id=2FF459F59FDE6F4DB900C53D513E36D8A44D313DA68B27EBD49BBD53A49B3DAB)
->>>>>>> 321e802778db24a8c0cf0b789ceac3df35f9b12d
 
 #### Employers
  - Securemetric Bhd. [Active] ([site](https://www.securemetric.com/))
