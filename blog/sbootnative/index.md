@@ -56,7 +56,7 @@ mariadb      latest    6d5c5ed114ad   2 weeks ago   408MB
 </pre>
 
 #### Running MariaDB
-Now that we have the MariaDB installed in our Docker, let's run it using `docker run -e MARIADB_ROOT_PASSWORD=foo123 --rm --name mariadb -p3306:3306 mariadb`. Using this command, you should have a MariaDB server running in your workstation listening at port 3306. The `root` password is `foo123` (obvisouly don't do it in production) as specified in the command. You may change it to something else based on your needs.
+Now that we have the MariaDB installed in our Docker, let's run it using `docker run -e MARIADB_ROOT_PASSWORD=foo123 --rm --name mariadb -p3306:3306 mariadb`. Using this command, you should have a MariaDB server running in your workstation listening at port 3306. The `root` password is `foo123` (obviously don't do it in production) as specified in the command. You may change it to something else based on your needs.
 
 You should see output like below:
 <pre>
@@ -171,7 +171,7 @@ Now that we have the database server ready, let's create a new Spring Boot proje
 As can be sent from the above screenshot, we need to have the following dependencies:
  - Spring Native (Experimental)
  - Spring Data JPA
- - MariaDB Drive
+ - MySQL Driver
  - Spring Web
 
 As you can see, as of when this post is written, Spring Native is still in the experimental stage, so breaking changes might still happen in the future.
@@ -299,9 +299,9 @@ To stop the application, you can simply press `CTRL + C`.
 ### Create Entity Class and Repository
 At this stage, we can conclude that our application is up and running. Now, let's create the entity class and repository to deal with our user data.
 
-<pre>
+<blockquote>
 For simplicity, we are going to put all the classes and interfaces into the same file. In the real programming tasks though, you might want to categorise the entity classes and interfaces into different packages or files based on your own code structure and standard.
-</pre>
+</blockquote>
 
 First, let's create a `User` class that reflects the structure of the `user` table in the database.
 ```kotlin
@@ -423,7 +423,7 @@ The `paketobuildpacks/*` containers are used by the Spring Native during the pro
 
 ---
 ### Running and Testing
-Now, let's run our native Spring Boot application using the following command ` docker run --rm -e DBHOST=192.168.1.105 -e DBPORT=3306 -e DBNAME=demonative -e DBUSER=root -e DBPASS=foo123 --name demonative -p 8080:8080 demonative:0.0.1-SNAPSHOT`
+Now, let's run our native Spring Boot application using the following command `docker run --rm -e DBHOST=192.168.1.105 -e DBPORT=3306 -e DBNAME=demonative -e DBUSER=root -e DBPASS=foo123 --name demonative -p 8080:8080 demonative:0.0.1-SNAPSHOT`
 
 <pre>
 PS D:\IdeaProjects\demonative> docker run --rm -e DBHOST=192.168.1.105 -e DBPORT=3306 -e DBNAME=demonative -e DBUSER=root -e DBPASS=foo123 --name demonative -p 8080:8080 demonative:0.0.1-SNAPSHOT
