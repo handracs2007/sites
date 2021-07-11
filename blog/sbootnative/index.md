@@ -168,7 +168,7 @@ Now that we have the database server ready, let's create a new Spring Boot proje
 
 ![startspringboot](start.png)
 
-As can be sent from the above screenshot, we need to have the following dependencies:
+As can be seen from the above screenshot, we need to have the following dependencies:
  - Spring Native (Experimental)
  - Spring Data JPA
  - MySQL Driver
@@ -375,12 +375,12 @@ class UserController(
 ---
 ### Test Run
 
-Now, let's run back our application using and make sure that it is responding correctly.
+Now, let's run back our application and make sure that it is responding correctly.
 
-If you call the endpoint http://localhost:8080/users, you should receive the response. At first, it will be empty as we do not yet have any user data.
+If you call the endpoint <http://localhost:8080/users>, you should receive the response. At first, it will be empty as we do not yet have any user data.
 ![List users empty](listuser1.png)
 
-Let's try to add ONE (1) new user by calling the `http://localhost:8080/user` endpoint using HTTP `POST` method.
+Let's try to add ONE (1) new user by calling the <http://localhost:8080/user> endpoint using HTTP `POST` method.
 ![Add user](adduser.png)
 
 Now, if we try to list down the users again, we should be able to see one new user has been added to the system.
@@ -472,7 +472,7 @@ INFO: Initializing Spring DispatcherServlet 'dispatcherServlet'
 
 Note that you have to adjust the environment variables (`DBHOST`, `DBPORT`, `DBNAME`, `DBUSER`, and `DBPASS`) values accordingly based on your environment.
 
-You can see above that the application starts only withint 0.223 seconds, compared to the JVM version which takes around 2 seconds to start.
+You can see above that the application starts only within 0.223 seconds, compared to the JVM version which takes around 2 seconds to start.
 
 Now, let's call again our add user API.
 ![Add user with native](adduser2.png)
