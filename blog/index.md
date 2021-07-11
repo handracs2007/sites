@@ -5,6 +5,7 @@
 Welcome to my blog. You can find lists of my blogposts below.
 
 #### Blogposts
+ - 2021-07-11 - Native Application with Spring Native and JPA ([let'sgo](sbootnative))
  - 2021-05-16 - EJBCA RESTful Client API for Go ([let's go](ejbcarestgo))
  - 2021-04-17 - Integrate OWASP Dependency Check with Maven ([let's go](depcheck))
  - 2021-01-10 - Check Certificate Revocation Status via CRL ([let's go](certcrl))
