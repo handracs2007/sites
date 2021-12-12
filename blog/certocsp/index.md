@@ -240,7 +240,7 @@ case ocsp.Unknown:
 ```
 
 ---
-That's all. It looks very easy and straight-forward.
+That's all. It is very easy and straight-forward.
 
 I hope this is helpful and the source code for this is available at Github [here](https://github.com/handracs2007/certocsp){:target=_blank}.
 
