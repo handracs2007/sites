@@ -28,7 +28,7 @@ With this site, I have retired my [old blog](https://handracs.blogspot.com){:tar
  - BiNus University ([site](https://binus.ac.id/))
 
 ## Contact
-If you want to contact me, feel free to email me at: [handra@handracs.info](mailto:handra@handracs.info).
+If you want to contact me, feel free to email me at: [me@handracs.info](mailto:me@handracs.info).
 
 Cheers
 
