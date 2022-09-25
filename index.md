@@ -6,12 +6,11 @@ With this site, I have retired my [old blog](https://handracs.blogspot.com){:tar
 ## I am a
 ### Software Engineer
 #### Skills and Experiences
- - Java, Kotlin, Go (most beloved, for now)
+ - Java, Kotlin, Go
  - HTML/CSS/JavaScript (just enough to get the work done, leaving to Google for the advanced topics)
  - SpringBoot, Jakarta EE
  - MySQL/MariaDB, PostgreSQL
  - Kafka, Microservices, Docker
- - Mobile (Android and iOS Development)
  - Geographic Information System (GIS)
  - Public Key Infrastructure and Cryptography
 
