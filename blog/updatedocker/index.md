@@ -99,4 +99,4 @@ This command is used to execute a command, which in this case is ```docker pull`
 That's it. I hope it helps anyone in updating all of your docker images in one simple command line.
 
 ---
-> Copyright &copy; 2020-2021 Handra. All Rights Reserved.
+> Copyright &copy; 2020-2022 Handra. All Rights Reserved.

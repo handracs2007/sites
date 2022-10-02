@@ -18,4 +18,4 @@ Welcome to my blog. You can find lists of my blogposts below.
  - 2020-09-27 - First Post ([let's go](firstpost))
 
 ---
-> Copyright &copy; 2020-2021 Handra. All Rights Reserved.
+> Copyright &copy; 2020-2022 Handra. All Rights Reserved.

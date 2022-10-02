@@ -201,4 +201,4 @@ Cheers
 
 ---
 
-> Copyright &copy; 2020-2021 Handra. All Rights Reserved.
+> Copyright &copy; 2020-2022 Handra. All Rights Reserved.
