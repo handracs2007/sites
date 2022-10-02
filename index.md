@@ -1,7 +1,6 @@
 ## Handra
 
 ### Home | [Blog](/blog) | [Disclaimer](/disclaimer) | [Terms and conditions](/tnc)
-With this site, I have retired my [old blog](https://handracs.blogspot.com){:target="_blank"} hosted in Google Blogspot. New blog posts will be posted here and also duplicated at my [Medium](https://medium.com/@handra){:target="_blank"} page.
 
 ## I am a
 ### Software Engineer
@@ -25,6 +24,10 @@ With this site, I have retired my [old blog](https://handracs.blogspot.com){:tar
  - Securemetric Bhd. [Active] ([site](https://www.securemetric.com/))
  - Intimap Indonesia ([site](http://www.intimap.com/))
  - BiNus University ([site](https://binus.ac.id/))
+
+#### Links
+ - My Medium (https://medium.com/@handra){:target="_blank"}
+ - CertCycle (https://beta.cert-cycle.com/){:target="_blank"}
 
 ## Contact
 If you want to contact me, feel free to email me at: [me@handracs.info](mailto:me@handracs.info).
