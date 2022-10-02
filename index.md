@@ -26,8 +26,8 @@
  - BiNus University ([site](https://binus.ac.id/))
 
 #### Links
- - My Medium ([](https://medium.com/@handra){:target="_blank"})
- - CertCycle ([](https://beta.cert-cycle.com/){:target="_blank"})
+ - My Medium ([https://handra.medium.com/](https://handra.medium.com/{:target="_blank"}))
+ - CertCycle ([https://beta.cert-cycle.com/](https://beta.cert-cycle.com/{:target="_blank"}))
 
 ## Contact
 If you want to contact me, feel free to email me at: [me@handracs.info](mailto:me@handracs.info).
