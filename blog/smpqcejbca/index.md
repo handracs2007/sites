@@ -13,7 +13,7 @@ Quantum computing, while still in its nascent stages, promises to solve complex 
 #### The Role of EJBCA in Post-Quantum Cryptography
 EJBCA is an open-source PKI management system that Securemetric utilises to implement its digital security solutions. EJBCA supports a wide range of cryptographic algorithms and standards, making it a versatile tool for building and managing robust PKI systems.
 
-#### Key Features of EJBCA:
+#### Key Features of EJBCA
 
 **Flexibility and Scalability**: EJBCA supports a variety of deployment scenarios, from small organizations to large enterprises, ensuring that it can meet diverse security needs. It can be deployed as a standalone server, in a clustered environment for high availability, or in a containerised format for cloud-native applications.
 
