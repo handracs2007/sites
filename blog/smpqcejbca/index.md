@@ -13,11 +13,13 @@ Quantum computing, while still in its nascent stages, promises to solve complex 
 #### The Role of EJBCA in Post-Quantum Cryptography
 EJBCA is an open-source PKI management system that Securemetric utilises to implement its digital security solutions. EJBCA supports a wide range of cryptographic algorithms and standards, making it a versatile tool for building and managing robust PKI systems.
 
-##### Key Features of EJBCA:
+#### Key Features of EJBCA:
 
-*Flexibility and Scalability*: EJBCA supports a variety of deployment scenarios, from small organizations to large enterprises, ensuring that it can meet diverse security needs. It can be deployed as a standalone server, in a clustered environment for high availability, or in a containerised format for cloud-native applications.
+**Flexibility and Scalability**: EJBCA supports a variety of deployment scenarios, from small organizations to large enterprises, ensuring that it can meet diverse security needs. It can be deployed as a standalone server, in a clustered environment for high availability, or in a containerised format for cloud-native applications.
 
-*Compliance*: EJBCA adheres to numerous industry standards and protocols, including X.509, RFC 5280, and Common Criteria EAL4+, making it a reliable choice for organisations needing to comply with stringent regulatory requirements.
+**Compliance**: EJBCA adheres to numerous industry standards and protocols, including X.509, RFC 5280, and Common Criteria EAL4+, making it a reliable choice for organisations needing to comply with stringent regulatory requirements.
+
+**Algorithm Support**: EJBCA provides comprehensive support for a wide array of cryptographic algorithms, encompassing both classical and post-quantum paradigms. It includes traditional algorithms like RSA, DSA, and ECC, as well as emerging quantum-resistant algorithms such as CRYSTALS-Dilithium and Falcon. EJBCA's modular and extensible architecture facilitates the seamless integration of new standardized algorithms as they are developed and adopted, ensuring that the platform remains at the forefront of cryptographic advancements and offers future-proof security solutions.
 
 #### Conclusion
 As quantum computing technology advances, the urgency for quantum-resistant cryptographic solutions grows. Securemetric, with its deep expertise in digital security and PKI, is dedicated to ensuring that its clients are prepared for the post-quantum era. By harnessing the power of EJBCA and integrating cutting-edge quantum-resistant algorithms, Securemetric is paving the way for a secure and resilient digital future.
