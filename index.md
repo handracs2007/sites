@@ -33,4 +33,4 @@ If you want to contact me, feel free to email me at: [me@handracs.info](mailto:m
 Cheers
 
 ---
-> Copyright &copy; 2020-2021 Handra. All Rights Reserved.
+> Copyright &copy; 2020-2024 Handra. All Rights Reserved.

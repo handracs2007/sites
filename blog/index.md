@@ -5,6 +5,7 @@
 Welcome to my blog. You can find lists of my blogposts below.
 
 #### Blogposts
+ - 2024-06-30 - Securemetric and Post-Quantum Readiness with EJBCA ([let's go](smpqcejbca))
  - 2021-12-12 - Check Certificate Revocation Status via OCSP ([let's go](certocsp))
  - 2021-07-11 - Native Application with Spring Native and JPA ([let's go](sbootnative))
  - 2021-05-16 - EJBCA RESTful Client API for Go ([let's go](ejbcarestgo))
@@ -18,4 +19,4 @@ Welcome to my blog. You can find lists of my blogposts below.
  - 2020-09-27 - First Post ([let's go](firstpost))
 
 ---
-> Copyright &copy; 2020-2021 Handra. All Rights Reserved.
+> Copyright &copy; 2020-2024 Handra. All Rights Reserved.
