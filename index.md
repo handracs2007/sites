@@ -1,17 +1,15 @@
 ## Handra
 
 ### Home | [Blog](/blog) | [Disclaimer](/disclaimer) | [Terms and conditions](/tnc)
-With this site, I have retired my [old blog](https://handracs.blogspot.com){:target="_blank"} hosted in Google Blogspot. New blog posts will be posted here and also duplicated at my [Medium](https://medium.com/@handra){:target="_blank"} page.
 
 ## I am a
 ### Software Engineer
 #### Skills and Experiences
- - Java, Kotlin, Go (most beloved, for now)
+ - Java, Kotlin, Go
  - HTML/CSS/JavaScript (just enough to get the work done, leaving to Google for the advanced topics)
  - SpringBoot, Jakarta EE
  - MySQL/MariaDB, PostgreSQL
  - Kafka, Microservices, Docker
- - Mobile (Android and iOS Development)
  - Geographic Information System (GIS)
  - Public Key Infrastructure and Cryptography
 
@@ -26,6 +24,10 @@ With this site, I have retired my [old blog](https://handracs.blogspot.com){:tar
  - Securemetric Bhd. [Active] ([site](https://www.securemetric.com/))
  - Intimap Indonesia ([site](http://www.intimap.com/))
  - BiNus University ([site](https://binus.ac.id/))
+
+#### Links
+ - My Medium ([https://handra.medium.com/](https://handra.medium.com/))
+ - CertCycle ([https://beta.cert-cycle.com/](https://beta.cert-cycle.com/))
 
 ## Contact
 If you want to contact me, feel free to email me at: [me@handracs.info](mailto:me@handracs.info).
